@@ -1,3 +1,5 @@
 == README
 
-Second app, still learning how to use Ruby on Rails.
+Future cat mapper site / app in the works.
+
+Nicholas Hanne & Ross Berger - 2013
