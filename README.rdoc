@@ -2,4 +2,4 @@
 
 Future cat mapper site / app in the works.
 
-Nicholas Hanne & Ross Berger - 2013
+Berger, Buckthal, Hanne - 2013
