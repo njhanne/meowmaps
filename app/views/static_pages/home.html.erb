@@ -1,16 +1,32 @@
 <% provide(:title, 'Home') %>
 <!DOCTYPE html>
 <html>
-  <body>
-  	<div class="center hero-unit">
-			<h1>CatMapper</h1>
 
-			<h2>This is the home page.</h2>
-
-			<%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-custom" %>
+<% if signed_in? %>
+	<div class="row">
+		<aside class="span4">
+			<section>
+				<%= render 'shared/user_info' %>
+			</section>
+			<section>
+				<%= render 'shared/micropost_form' %>
+			</section>
+		</aside>
+		<div class "row">
+			<h3>Comment Feed</h3>
+			<%= render 'shared/feed' %>
 		</div>
+	</div>
 
-		<%= link_to image_tag("http://www.broke-hip.com/ctatsu/tatsu.jpeg", alt: "Tatsu"), 'http://rubyonrails.org/' %>
-  </body>
+<% else %>
+	<div class="center hero-unit">
+		<h1>CatMapper</h1>
 
+		<h2>Start mapping your best cat encounters!</h2>
+
+		<%= link_to "Sign up now", signup_path, class: "btn btn-large btn-custom" %>
+	</div>
+
+	<%= link_to image_tag("http://www.broke-hip.com/ctatsu/tatsu.jpeg", alt: "Tatsu"), 'http://ctatsu.com/' %>
+<% end %>
 </html>
