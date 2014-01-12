@@ -613,7 +613,11 @@
       <created>1389557026551</created>
       <updated>1389557026551</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Tried to get rid of .idea&#10;">
+      <created>1389557038863</created>
+      <updated>1389557038863</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
