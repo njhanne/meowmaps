@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="595701927">
+    <data-source source="LOCAL" name="Rails CatMapr: development" uuid="2598f425-d242-4fff-be42-493013d841e2">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:CatMapr_development</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfc9dfcbdfdedfc7dfcbdfdadfd8</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails CatMapr: test" uuid="2ec6cb3b-411f-43c0-9675-050000cd4073">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:CatMapr_test</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfc9dfcbdfdedfc7dfcbdfdadfd8</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails CatMapr: production" uuid="9562c4ef-f02b-4c1d-8693-a7778080cca8">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:CatMapr_production</jdbc-url>
+      <user-name>CatMapr</user-name>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
