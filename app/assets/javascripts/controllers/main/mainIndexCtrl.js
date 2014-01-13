@@ -9,5 +9,6 @@ this.IndexCtrl = function($scope) {
         contents: 'Cant wait for it to not be a shitty blog clone!'
       }
     ]
+
   };
 };

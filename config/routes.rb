@@ -54,5 +54,6 @@ CatMapr::Application.routes.draw do
   #     resources :products
   #   end
 
+  root to: 'main#index'
   get 'main/index'
 end

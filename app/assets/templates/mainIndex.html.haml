@@ -1,0 +1,6 @@
+%h1.text-center CatMapr
+.row{'ng-repeat' => 'post in data.posts'}
+  %h2
+    %a{"ui-sref" => "post"}
+      {{ post.title }}
+  %p {{ post.contents }}
